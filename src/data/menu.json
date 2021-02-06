@@ -1,0 +1,45 @@
+[
+  {
+    "title": "Home",
+    "dropdown": [
+      {
+        "title": "Vabgo",
+        "link": "/"
+      },
+      {
+        "title": "Business For Sale",
+        "link": "/index-4"
+      },
+      {
+        "title": "Used Machinery",
+        "link": "/index-4"
+      },
+      {
+        "title": "Commercial Spaces",
+        "link": "/index-4",
+        "new": true
+      },
+      {
+        "title": "Warehouse & Cold Storages",
+        "link": "/index-4",
+        "new": true
+      }
+    ]
+  },
+  {
+    "title": "Sign in",
+    "link": "/login",
+    "hideToLoggedUser": true
+  },
+  {
+    "title": "Sign up",
+    "link": "/signup",
+    "hideToLoggedUser": true
+  },
+  {
+    "title": "Add a listing",
+    "link": "/user-add-0",
+    "button": true,
+    "hideToLoggedUser": true
+  }
+]

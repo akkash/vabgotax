@@ -1,0 +1,143 @@
+{
+  "hero": "https://omatchar.sirv.com/Images/warehouse.jpeg",
+  "title": "Locate Your Warehouse",
+  "subTitle": "Uncover the best Warehouses in the Market.",
+  "searchTabs": {
+    "tabs": [
+      {
+        "title": "Rent"
+      }
+    ],
+    "locationOptions": [
+      { "value": "city_0", "label": "Chennai" },
+      { "value": "city_1", "label": "Salem" },
+      { "value": "city_2", "label": "Trichy" },
+      { "value": "city_3", "label": "Madurai" },
+      { "value": "city_4", "label": "Erode" },
+      { "value": "city_5", "label": "Tuticorin" }
+    ],
+    "typeOptions": [
+      { "value": "type_0", "label": "Warehouse" },
+      { "value": "type_1", "label": "Cold Storage" },
+      { "value": "type_2", "label": "Industrial Shed" },
+      { "value": "type_3", "label": "Land" },
+      { "value": "type_4", "label": "Other" }
+    ],
+    "sqftOptions": [
+      { "value": "sqft_0", "label": "0 - 1000 Sq Ft" },
+      { "value": "sqft_1", "label": "1000 - 10,000 Sq Ft" },
+      { "value": "sqft_2", "label": "10,000 - 50,000 Sq Ft" },
+      { "value": "sqft_3", "label": "50,000 Sq Ft > " }
+    ]
+  },
+  "featured": {
+    "subTitle": "Find your Warehouse today",
+    "title": "Featured listings around you",
+    "button": "See all featured listings",
+    "buttonLink": "category-rooms",
+    "swiper": [
+      {
+        "title": "Spacious Warehouse - Chennai",
+        "location": "Chennai",
+        "type": "Warehouse",
+        "link": "/detail-rooms",
+        "img": "img/photo/IMG_20200808_104505.jpg",
+        "meters": "35000",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "price": "15"
+      },
+      {
+        "title": "Spacious Warehouse - Erode",
+        "location": "Erode",
+        "type": "Warehouse",
+        "link": "/detail-rooms-1",
+        "img": "img/photo/IMG_20200808_104826.jpg",
+        "meters": "85000",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "price": "10"
+      },
+      {
+        "title": "Spacious Warehouse - Coimbatore",
+        "location": "Coimbatore",
+        "type": "Warehouse",
+        "link": "/detail-rooms-2",
+        "img": "img/photo/IMG_20200808_104913.jpg",
+        "meters": "35000",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "price": "15"
+      },
+      {
+        "title": "Spacious Warehouse - Chennai",
+        "location": "Chennai",
+        "type": "Warehouse",
+        "link": "/detail-rooms-3",
+        "img": "img/photo/IMG_20200808_104828.jpg",
+        "meters": "85000",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "price": "8"
+      },
+      {
+        "title": "Spacious Warehouse - Madurai",
+        "location": "Madurai",
+        "type": "Warehouse",
+        "link": "/detail-rooms-4",
+        "img": "img/photo/IMG_20200808_104916.jpg",
+        "meters": "35000",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "price": "12"
+      },
+      {
+        "title": "Spacious Warehouse - Trichy",
+        "location": "Trichy",
+        "type": "Warehouse",
+        "link": "/detail-rooms",
+        "img": "img/photo/IMG_20200808_104434.jpg",
+        "meters": "85000",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "price": "5"
+      }
+    ]
+  },
+  "popularCities": {
+    "title": "Locations under our Radar",
+    "subTitle": "Most popular cities"
+  },
+  "discover": {
+    "title": "Discover the best Warehouses, Cold Storage around you",
+    "subTitle": "Why us?",
+    "blocks": [
+      {
+        "title": "Find the best warehouse in required area",
+        "content": "Reduce your time spent hunting for the warehouse and cold storage which fullfills your requirements by ging through the listed spaces details",
+        "icon": "#destination-map-1",
+        "color": "primary"
+      },
+      {
+        "title": "Purchase a property",
+        "content": "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit",
+        "icon": "#real-estate-1",
+        "color": "secondary"
+      },
+      {
+        "title": "Profit",
+        "content": "His room, a proper human room although a little too small, lay peacefully between its four familiar ",
+        "icon": "#pay-1",
+        "color": "primary"
+      }
+    ]
+  },
+  "divider": {
+    "title": "Vabgo is the best way to find & discover Warehouse, Commercial Space, Used Machinery",
+    "subTitle": "Start using Vabgo today",
+    "content": "Browse through our listings and make your search easier.",
+    "button": "Create Your Account",
+    "buttonLink": "#",
+    "small": "Cheaper than a Month YOUR Net Pack"
+  }
+}

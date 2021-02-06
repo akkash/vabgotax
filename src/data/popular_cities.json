@@ -1,0 +1,31 @@
+{
+  "button": "See all cities",
+  "buttonLink": "category",
+  "cities": [
+    {
+      "title": "Chennai",
+      "img": "img/photo/CH_city.jpg",
+      "link": "category-3"
+    },
+    {
+      "title": "Coimbatore",
+      "img": "img/photo/cbe_isha.jpg",
+      "link": "category-3"
+    },
+    {
+      "title": "Madurai",
+      "img": "img/photo/md_city.jpg",
+      "link": "category-3"
+    },
+    {
+      "title": "Erode",
+      "img": "img/photo/ed_city.jpg",
+      "link": "category-3"
+    },
+    {
+      "title": "Trichy",
+      "img": "img/photo/tr_city.jpg",
+      "link": "category-3"
+    }
+  ]
+}

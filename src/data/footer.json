@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Vabgo",
+    "content": "One Point Solution",
+    "social": [
+      {
+        "title": "twitter",
+        "link": "#"
+      },
+      {
+        "title": "facebook",
+        "link": "#"
+      },
+      {
+        "title": "instagram",
+        "link": "#"
+      }
+    ],
+    "lg": "4"
+  },
+  {
+    "title": "Rentals",
+    "links": [
+      {
+        "title": "Warehouse",
+        "link": "/"
+      },
+      {
+        "title": "Cold Storage",
+        "link": "/category-rooms"
+      },
+      {
+        "title": "Business For Sale",
+        "link": "/category-2-rooms"
+      },
+      {
+        "title": "Commercial Space",
+        "link": "/category-3-rooms"
+      },
+      {
+        "title": "Used Machinery",
+        "link": "/detail-rooms"
+      }
+    ],
+    "lg": "2",
+    "md": "6"
+  }
+]
