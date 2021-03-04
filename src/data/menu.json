@@ -1,30 +1,411 @@
 [
   {
-    "title": "Home",
-    "dropdown": [
-      {
-        "title": "Vabgo",
-        "link": "/"
-      },
-      {
-        "title": "Business For Sale",
-        "link": "/index-4"
-      },
-      {
-        "title": "Used Machinery",
-        "link": "/index-4"
-      },
-      {
-        "title": "Commercial Spaces",
-        "link": "/index-4",
-        "new": true
-      },
-      {
-        "title": "Warehouse & Cold Storages",
-        "link": "/index-4",
-        "new": true
-      }
+    "title": "Business Setup",
+    "position": "static",
+    "megamenu": [
+      [
+        {
+          "title": "Business Registration",
+          "links": [
+            {
+              "title": "Private Limited",
+              "link": "/",
+              "parent": "Business Registration"
+            },
+            {
+              "title": "Limited Liability Partnership",
+              "link": "/index-2",
+              "parent": "Business Registration"
+            },
+            {
+              "title": "One Person Company",
+              "link": "/index-3",
+              "parent": "Business Registration"
+            },
+            {
+              "title": "Nidhi Company",
+              "link": "/index-4",
+              "parent": "Business Registration"
+            },
+            {
+              "title": "Producer Company",
+              "link": "/index-4",
+              "parent": "Business Registration",
+              "new": true
+            },
+            {
+              "title": "Partnership Firm",
+              "link": "/index-4",
+              "parent": "Business Registration"
+            },
+            {
+              "title": "Sole Proprietorship",
+              "link": "/index-4",
+              "parent": "Business Registration"
+            },
+            {
+              "title": "Startup India Registration",
+              "link": "/index-4",
+              "parent": "Business Registration"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Licenses",
+          "links": [
+            {
+              "title": "FSSAI [Food License]",
+              "link": "/category"
+            },
+            {
+              "title": "IEC [ Import/Export Code ]",
+              "link": "/category-2"
+            },
+            {
+              "title": "MSME/SSI Registration",
+              "link": "/category-3"
+            },
+            {
+              "title": "Digital Signature Certificate",
+              "link": "/detail"
+            }
+          ]
+        }
+      ]
     ]
+  },
+  {
+    "title": "Tax & Compliance",
+    "position": "static",
+    "megamenu": [
+      [
+        {
+          "title": "Mandatory Annual Filings",
+          "links": [
+            {
+              "title": "Private Limited Company / OPC",
+              "link": "/"
+            },
+            {
+              "title": "Limited Liability Partnership",
+              "link": "/index-2"
+            }
+          ]
+        },
+        {
+          "title": "Changes in Pvt Ltd Company",
+          "links": [
+            {
+              "title": "Add a Director",
+              "link": "/category"
+            },
+            {
+              "title": "Remove a Director",
+              "link": "/category-2"
+            },
+            {
+              "title": "Increase Authorized Capital",
+              "link": "/category-3"
+            },
+            {
+              "title": "Close the Pvt Ltd Company ",
+              "link": "/detail"
+            },
+            {
+              "title": "Change Objective/Adjective",
+              "link": "/detail"
+            },
+            {
+              "title": "Change Address",
+              "link": "/detail"
+            },
+            {
+              "title": "Change Company Name",
+              "link": "/detail"
+            }
+          ]
+        },
+        {
+          "title": "Labour Compliance",
+          "links": [
+            {
+              "title": "Provident Fund(PF) Registeration",
+              "link": "/category"
+            },
+            {
+              "title": "ESI Registration",
+              "link": "/category-2"
+            },
+            {
+              "title": "Professional Tax Registration",
+              "link": "/category-3"
+            },
+            {
+              "title": "Shops and Establishment License",
+              "link": "/detail"
+            },
+            {
+              "title": "Employee Stock Option Plan [ESOP]",
+              "link": "/detail"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Accounting & Tax",
+          "links": [
+            {
+              "title": "Accounting and Book-keeping",
+              "link": "/category"
+            },
+            {
+              "title": "Payroll Maintenance",
+              "link": "/category-2"
+            },
+            {
+              "title": "TDS Return Filing",
+              "link": "/category-3"
+            },
+            {
+              "title": "Individual Income Tax Filing",
+              "link": "/detail"
+            }
+          ]
+        },
+        {
+          "title": "GST",
+          "links": [
+            {
+              "title": "GST Registration",
+              "link": "/category"
+            },
+            {
+              "title": "GST Filing",
+              "link": "/category-2"
+            },
+            {
+              "title": "GST Advisory",
+              "link": "/category-3"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Changes In Limited Liability Partnership",
+          "links": [
+            {
+              "title": "Add Designated Partner",
+              "link": "/category"
+            },
+            {
+              "title": "Changes to LLP Agreement",
+              "link": "/category-2"
+            },
+            {
+              "title": "Close the LLP",
+              "link": "/category-3"
+            }
+          ]
+        },
+        {
+          "title": "Convert Your Business",
+          "links": [
+            {
+              "title": "Proprietorship to Pvt Ltd Company",
+              "link": "/category"
+            },
+            {
+              "title": "Partnership to LLP",
+              "link": "/category-2"
+            },
+            {
+              "title": "Private to Public Limited Company",
+              "link": "/category-3"
+            },
+            {
+              "title": "Private to One Person Company",
+              "link": "/detail"
+            },
+            {
+              "title": "Compliance Check - Secretarial Audit",
+              "link": "/detail"
+            },
+            {
+              "title": "Due Diligence",
+              "link": "/detail"
+            },
+            {
+              "title": "RBI Compliance",
+              "link": "/detail"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "title": "Trademark & IP",
+    "position": "static",
+    "megamenu": [
+      [
+        {
+          "title": "Trademark",
+          "links": [
+            {
+              "title": "Trademark Registration",
+              "link": "/"
+            },
+            {
+              "title": "Search for Trademark",
+              "link": "/index-2"
+            },
+            {
+              "title": "Logo Design",
+              "link": "/index-3"
+            }
+          ]
+        },
+        {
+          "title": "Copyright",
+          "links": [
+            {
+              "title": "Copyright Registration",
+              "link": "/category"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Patent",
+          "links": [
+            {
+              "title": "Patent Search",
+              "link": "/category"
+            },
+            {
+              "title": "Provisional Application",
+              "link": "/category"
+            },
+            {
+              "title": "Permanent Patent",
+              "link": "/category"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "title": "Contracts",
+    "position": "static",
+    "megamenu": [
+      [
+        {
+          "title": "Hiring Documents",
+          "links": [
+            {
+              "title": "Employment Contract",
+              "link": "/"
+            },
+            {
+              "title": "Consultancy Agreement",
+              "link": "/index-2"
+            },
+            {
+              "title": "Freelancer Agreement",
+              "link": "/index-3"
+            }
+          ]
+        },
+        {
+          "title": "Website Policies",
+          "links": [
+            {
+              "title": "Term of Service & Privacy Policy",
+              "link": "/category"
+            },
+            {
+              "title": "Disclaimer",
+              "link": "/category"
+            },
+            {
+              "title": "Joint Venture Agreement",
+              "link": "/category"
+            },
+            {
+              "title": "General Data Protection Regulation[GDPR]",
+              "link": "/category"
+            },
+            {
+              "title": "Non Disclosure Agreement",
+              "link": "/category"
+            }
+          ]
+        },
+        {
+          "title": "Business Contracts",
+          "links": [
+            {
+              "title": "Memorandum of Understanding",
+              "link": "/category"
+            },
+            {
+              "title": "Franchise Agreement",
+              "link": "/category"
+            },
+            {
+              "title": "Joint Venture Agreement",
+              "link": "/category"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Service/Vendor",
+          "links": [
+            {
+              "title": "Service Level Agreement",
+              "link": "/category"
+            },
+            {
+              "title": "Master Service Agreement",
+              "link": "/category"
+            },
+            {
+              "title": "Vendor Agreement",
+              "link": "/category"
+            }
+          ]
+        },
+        {
+          "title": "Legal Notice",
+          "links": [
+            {
+              "title": "Legal Notice",
+              "link": "/category"
+            },
+            {
+              "title": "Cheque Bounce Notice",
+              "link": "/category"
+            },
+            {
+              "title": "Money Recovery",
+              "link": "/category"
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "title": "Contact",
+    "link": "/contact"
   },
   {
     "title": "Sign in",
@@ -34,12 +415,6 @@
   {
     "title": "Sign up",
     "link": "/signup",
-    "hideToLoggedUser": true
-  },
-  {
-    "title": "Add a listing",
-    "link": "/user-add-0",
-    "button": true,
     "hideToLoggedUser": true
   }
 ]
