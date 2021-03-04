@@ -14,7 +14,6 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "nexport": "next build && next export"
-  
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
@@ -22,13 +21,13 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
-    "concurrently": "^4.0.1",
+    "concurrently": "^5.3.0",
     "express": "^4.16.4",
     "is-empty": "^1.2.0",
     "jsonwebtoken": "^8.3.0",
     "leaflet": "^1.6.0",
     "mongoose": "^5.3.11",
-    "next": "9.3.5",
+    "next": "^10.0.6",
     "next-images": "^1.4.1",
     "nextjs-progressbar": "0.0.5",
     "nouislider-react": "^3.3.8",
