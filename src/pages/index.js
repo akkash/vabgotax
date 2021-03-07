@@ -39,7 +39,7 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Real Estate",
+      title: "Vabgo Tax",
     },
   };
 }
@@ -61,87 +61,12 @@ export default () => {
               <h1 className="display-3 font-weight-bold text-shadow">
                 {data.title}
               </h1>
-              <p className="text-lg text-shadow mb-6">{data.subTitle}</p>
+              <p className="text-lg text-shadow mb-5">{data.subTitle}</p>
             </Col>
           </Row>
         </Container>
       </section>
-      <Container className="position-relative mt-n6 z-index-20">
-        <Nav tabs className="search-bar-nav-tabs">
-          {data.searchTabs &&
-            data.searchTabs.tabs.map((tab, index) => (
-              <NavItem
-                key={index}
-                className={
-                  index < data.searchTabs.tabs.length - 1 ? "mr-2" : ""
-                }
-              >
-                <NavLink
-                  onClick={() => toggle(index)}
-                  className={activeTab === index ? "active" : ""}
-                >
-                  {tab.title}
-                </NavLink>
-              </NavItem>
-            ))}
-        </Nav>
-        <div className="search-bar search-bar-with-tabs p-3 p-lg-4">
-          <TabContent activeTab={activeTab}>
-            {data.searchTabs &&
-              data.searchTabs.tabs.map((tab, index) => (
-                <TabPane tabId={index} key={index}>
-                  <Form>
-                    <Row>
-                      <Col
-                        lg="4"
-                        className="d-flex align-items-center form-group no-divider"
-                      >
-                        <Select
-                          instanceId={"locationPicker"}
-                          options={data.searchTabs.locationOptions}
-                          placeholder="Location"
-                          className="selectpicker"
-                          classNamePrefix="selectpicker"
-                        />
-                      </Col>
-                      <Col
-                        md="6"
-                        lg="3"
-                        className="d-flex align-items-center form-group no-divider"
-                      >
-                        <Select
-                          instanceId={"typePicker"}
-                          options={data.searchTabs.typeOptions}
-                          placeholder="Type"
-                          className="selectpicker"
-                          classNamePrefix="selectpicker"
-                        />
-                      </Col>
-                      <Col
-                        md="6"
-                        lg="3"
-                        className="d-flex align-items-center form-group no-divider"
-                      >
-                        <Select
-                          instanceId={"pricePicker"}
-                          options={data.searchTabs.sqftOptions}
-                          placeholder="Square Feet"
-                          className="selectpicker"
-                          classNamePrefix="selectpicker"
-                        />
-                      </Col>
-                      <Col lg="2" className="form-group mb-0">
-                        <Button color="primary" block className="h-100">
-                          Search
-                        </Button>
-                      </Col>
-                    </Row>
-                  </Form>
-                </TabPane>
-              ))}
-          </TabContent>
-        </div>
-      </Container>
+
       {data.featured && (
         <section className="py-6">
           <Container>

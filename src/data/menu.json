@@ -5,71 +5,107 @@
     "megamenu": [
       [
         {
-          "title": "Business Registration",
+          "title": "Select Your Company Type",
           "links": [
             {
-              "title": "Private Limited",
-              "link": "/",
-              "parent": "Business Registration"
+              "title": "Company Registration",
+              "link": "/coming-soon"
             },
             {
-              "title": "Limited Liability Partnership",
-              "link": "/index-2",
-              "parent": "Business Registration"
+              "title": "Private Limited Company",
+              "link": "/coming-soon"
             },
             {
               "title": "One Person Company",
-              "link": "/index-3",
-              "parent": "Business Registration"
+              "link": "/coming-soon"
             },
             {
               "title": "Nidhi Company",
-              "link": "/index-4",
-              "parent": "Business Registration"
+              "link": "/coming-soon"
             },
             {
-              "title": "Producer Company",
-              "link": "/index-4",
+              "title": "Section 8 Company",
+              "link": "/coming-soon",
               "parent": "Business Registration",
               "new": true
             },
             {
-              "title": "Partnership Firm",
-              "link": "/index-4",
-              "parent": "Business Registration"
+              "title": "Startup Registration",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Producer Company",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Public Limited Company",
+              "link": "/coming-soon"
             },
             {
               "title": "Sole Proprietorship",
-              "link": "/index-4",
-              "parent": "Business Registration"
+              "link": "/coming-soon"
             },
             {
-              "title": "Startup India Registration",
-              "link": "/index-4",
-              "parent": "Business Registration"
+              "title": "Limited Liability Partnership",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Partnership Registration",
+              "link": "/coming-soon"
             }
           ]
         }
       ],
       [
         {
-          "title": "Licenses",
+          "title": "Company Search",
           "links": [
             {
-              "title": "FSSAI [Food License]",
-              "link": "/category"
+              "title": "Company Details Search",
+              "link": "/coming-soon"
             },
             {
-              "title": "IEC [ Import/Export Code ]",
-              "link": "/category-2"
+              "title": "Check Company Name Availability",
+              "link": "/coming-soon"
             },
             {
-              "title": "MSME/SSI Registration",
-              "link": "/category-3"
+              "title": "LLP Details Search",
+              "link": "/coming-soon"
             },
             {
-              "title": "Digital Signature Certificate",
-              "link": "/detail"
+              "title": "Check LLP Name Availability",
+              "link": "/coming-soon"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Convert Company",
+          "links": [
+            {
+              "title": "Partnership to LLP",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Sole Proprietorship to Pvt Ltd",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Private Limited to Public Limited",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Private Limited to OPC",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Public Limited to Private Limited",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "OPC to Private Limited",
+              "link": "/coming-soon"
             }
           ]
         }
@@ -77,170 +113,163 @@
     ]
   },
   {
-    "title": "Tax & Compliance",
+    "title": "Business Compliances",
     "position": "static",
     "megamenu": [
       [
         {
-          "title": "Mandatory Annual Filings",
+          "title": "Mandatory Compliances",
           "links": [
             {
-              "title": "Private Limited Company / OPC",
-              "link": "/"
+              "title": "Annual Compliances for Pvt Ltd",
+              "link": "/coming-soon"
             },
             {
-              "title": "Limited Liability Partnership",
-              "link": "/index-2"
+              "title": "Annual Compliances for OPC",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Annual Compliances for LLP",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Annual Compliances for Public Limited Company",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Annual Compliances for Section 8",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Annual Compliances for Producer Company",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "ROC Annual Filing",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Nidhi Company ROC Filings",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "GST Return Filing",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Director KYC DIR 3 KVC",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Accounting and Book keeping",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Audit of the Business",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "TDS Return",
+              "link": "/coming-soon"
             }
           ]
-        },
+        }
+      ],
+      [
         {
-          "title": "Changes in Pvt Ltd Company",
+          "title": "Company Closure",
           "links": [
             {
-              "title": "Add a Director",
-              "link": "/category"
+              "title": "Close one Person Company",
+              "link": "/coming-soon"
             },
             {
-              "title": "Remove a Director",
-              "link": "/category-2"
+              "title": "Close Private Limited Company",
+              "link": "/coming-soon"
             },
             {
-              "title": "Increase Authorized Capital",
-              "link": "/category-3"
+              "title": "Close Public Limited Company",
+              "link": "/coming-soon"
             },
             {
-              "title": "Close the Pvt Ltd Company ",
-              "link": "/detail"
-            },
-            {
-              "title": "Change Objective/Adjective",
-              "link": "/detail"
-            },
-            {
-              "title": "Change Address",
-              "link": "/detail"
-            },
+              "title": "Close Limited Liability Partnership",
+              "link": "/coming-soon"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "title": "Change in Business",
+          "links": [
             {
               "title": "Change Company Name",
-              "link": "/detail"
-            }
-          ]
-        },
-        {
-          "title": "Labour Compliance",
-          "links": [
-            {
-              "title": "Provident Fund(PF) Registeration",
-              "link": "/category"
+              "link": "/coming-soon"
             },
             {
-              "title": "ESI Registration",
-              "link": "/category-2"
+              "title": "Change of Place of the Company",
+              "link": "/coming-soon"
             },
             {
-              "title": "Professional Tax Registration",
-              "link": "/category-3"
+              "title": "Increase in Authorized Capital",
+              "link": "/coming-soon"
             },
             {
-              "title": "Shops and Establishment License",
-              "link": "/detail"
+              "title": "Change of Object of the Company",
+              "link": "/coming-soon"
             },
             {
-              "title": "Employee Stock Option Plan [ESOP]",
-              "link": "/detail"
+              "title": "Removal and Addition of Directors/Partners",
+              "link": "/coming-soon"
             }
           ]
         }
       ],
       [
         {
-          "title": "Accounting & Tax",
+          "title": "MCA Form",
           "links": [
             {
-              "title": "Accounting and Book-keeping",
-              "link": "/category"
+              "title": "Form Inc 20A",
+              "link": "/coming-soon"
             },
             {
-              "title": "Payroll Maintenance",
-              "link": "/category-2"
+              "title": "INC - 22A Active Form",
+              "link": "/coming-soon"
             },
             {
-              "title": "TDS Return Filing",
-              "link": "/category-3"
+              "title": "Form DPT-3",
+              "link": "/coming-soon"
             },
             {
-              "title": "Individual Income Tax Filing",
-              "link": "/detail"
+              "title": "Form MSME-1",
+              "link": "/coming-soon"
             }
           ]
         },
         {
-          "title": "GST",
+          "title": "Change in LLP",
           "links": [
             {
-              "title": "GST Registration",
-              "link": "/category"
-            },
-            {
-              "title": "GST Filing",
-              "link": "/category-2"
-            },
-            {
-              "title": "GST Advisory",
-              "link": "/category-3"
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "title": "Changes In Limited Liability Partnership",
-          "links": [
-            {
-              "title": "Add Designated Partner",
-              "link": "/category"
-            },
-            {
-              "title": "Changes to LLP Agreement",
-              "link": "/category-2"
-            },
-            {
-              "title": "Close the LLP",
-              "link": "/category-3"
+              "title": "Change in LLP Agreements",
+              "link": "/coming-soon"
             }
           ]
         },
         {
-          "title": "Convert Your Business",
+          "title": "Others",
           "links": [
             {
-              "title": "Proprietorship to Pvt Ltd Company",
-              "link": "/category"
+              "title": "Dematerialization of Shares",
+              "link": "/coming-soon"
             },
             {
-              "title": "Partnership to LLP",
-              "link": "/category-2"
+              "title": "XBRL Filing",
+              "link": "/coming-soon"
             },
             {
-              "title": "Private to Public Limited Company",
-              "link": "/category-3"
-            },
-            {
-              "title": "Private to One Person Company",
-              "link": "/detail"
-            },
-            {
-              "title": "Compliance Check - Secretarial Audit",
-              "link": "/detail"
-            },
-            {
-              "title": "Due Diligence",
-              "link": "/detail"
-            },
-            {
-              "title": "RBI Compliance",
-              "link": "/detail"
+              "title": "Removal of Director Disqualifaction",
+              "link": "/coming-soon"
             }
           ]
         }
@@ -256,16 +285,56 @@
           "title": "Trademark",
           "links": [
             {
+              "title": "Trademark Search",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Class Search",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Classes",
+              "link": "/coming-soon"
+            },
+            {
               "title": "Trademark Registration",
-              "link": "/"
+              "link": "/coming-soon"
             },
             {
-              "title": "Search for Trademark",
-              "link": "/index-2"
+              "title": "Trademark Objection",
+              "link": "/coming-soon"
             },
             {
-              "title": "Logo Design",
-              "link": "/index-3"
+              "title": "Trademark Renewal",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Restoration",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Assignment",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Hearing",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Opposition",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Infingement",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Investment",
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Trademark Logo",
+              "link": "/coming-soon"
             }
           ]
         },
@@ -274,7 +343,11 @@
           "links": [
             {
               "title": "Copyright Registration",
-              "link": "/category"
+              "link": "/coming-soon"
+            },
+            {
+              "title": "Copyright Objection",
+              "link": "/coming-soon"
             }
           ]
         }

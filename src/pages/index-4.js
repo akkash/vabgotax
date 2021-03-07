@@ -39,7 +39,7 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Vabgo",
+      title: "VabgoTax",
     },
   };
 }

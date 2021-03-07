@@ -1,40 +1,13 @@
 {
-  "hero": "https://omatchar.sirv.com/Images/warehouse.jpeg",
-  "title": "Locate Your Warehouse",
-  "subTitle": "Uncover the best Warehouses in the Market.",
-  "searchTabs": {
-    "tabs": [
-      {
-        "title": "Rent"
-      }
-    ],
-    "locationOptions": [
-      { "value": "city_0", "label": "Chennai" },
-      { "value": "city_1", "label": "Salem" },
-      { "value": "city_2", "label": "Trichy" },
-      { "value": "city_3", "label": "Madurai" },
-      { "value": "city_4", "label": "Erode" },
-      { "value": "city_5", "label": "Tuticorin" }
-    ],
-    "typeOptions": [
-      { "value": "type_0", "label": "Warehouse" },
-      { "value": "type_1", "label": "Cold Storage" },
-      { "value": "type_2", "label": "Industrial Shed" },
-      { "value": "type_3", "label": "Land" },
-      { "value": "type_4", "label": "Other" }
-    ],
-    "sqftOptions": [
-      { "value": "sqft_0", "label": "0 - 1000 Sq Ft" },
-      { "value": "sqft_1", "label": "1000 - 10,000 Sq Ft" },
-      { "value": "sqft_2", "label": "10,000 - 50,000 Sq Ft" },
-      { "value": "sqft_3", "label": "50,000 Sq Ft > " }
-    ]
-  },
+  "hero": "https://omatchar.sirv.com/Images/vabgotax_front.png",
+  "title": "Providing Access to Reliable Professionals",
+  "subTitle": "We help you in process of Starting Up",
+
   "featured": {
-    "subTitle": "Find your Warehouse today",
-    "title": "Featured listings around you",
-    "button": "See all featured listings",
-    "buttonLink": "category-rooms",
+    "subTitle": "Services We Provide",
+    "title": "Featured Services",
+    "button": "See all services",
+    "buttonLink": "all-services",
     "swiper": [
       {
         "title": "Spacious Warehouse - Chennai",
