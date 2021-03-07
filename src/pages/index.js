@@ -61,155 +61,18 @@ export default () => {
               <h1 className="display-3 font-weight-bold text-shadow">
                 {data.title}
               </h1>
-              <p className="text-lg text-shadow mb-5">{data.subTitle}</p>
+              <p className="text-lg text-shadow mb-6">{data.subTitle}</p>
             </Col>
           </Row>
         </Container>
       </section>
 
-      {data.featured && (
-        <section className="py-6">
-          <Container>
-            <Row className="mb-lg-6">
-              <Col md="8">
-                <p className="subtitle text-secondary">
-                  {data.featured.subTitle}
-                </p>
-                <h2 className="mb-md-0">{data.featured.title}</h2>
-              </Col>
-              <Col
-                lg="4"
-                className="d-md-flex align-items-center justify-content-end"
-              >
-                <Link href={data.featured.buttonLink}>
-                  <a className="text-muted text-sm">
-                    {data.featured.button}
-                    <i className="fas fa-angle-double-right ml-2" />
-                  </a>
-                </Link>
-              </Col>
-            </Row>
-          </Container>
-          <Container fluid>
-            <Swiper
-              className="swiper-container-mx-negative items-slider-full px-lg-5 pt-3 pb-5"
-              perView={1}
-              spaceBetween={20}
-              loop
-              roundLengths
-              md={2}
-              lg={3}
-              xl={4}
-              xxl={5}
-              xxxl={6}
-              data={data.featured.swiper}
-              propertyCards
-            />
-          </Container>
-        </section>
-      )}
-      {data.popularCities && (
-        <PopularCities
-          title={data.popularCities.title}
-          subTitle={data.popularCities.subTitle}
-          greyBackground
-        />
-      )}
       {data.discover && (
         <Discover
           className="py-6"
           title={data.discover.title}
           subTitle={data.discover.subTitle}
           blocks={data.discover.blocks}
-        />
-      )}
-      {data.divider && (
-        <section>
-          <Container className="bg-gray-100 py-6 px-3 px-lg-5 rounded-lg shadow-sm">
-            <Row>
-              <Col lg="6" className="mb-5 mb-lg-0 text-center text-lg-left">
-                <p className="subtitle text-secondary">{data.divider.title}</p>
-                <p className="text-lg">{data.divider.subTitle}</p>
-                <p className="text-muted mb-0">{data.divider.content}</p>
-              </Col>
-              <Col
-                lg="6"
-                className="d-flex align-items-center justify-content-center"
-              >
-                <div className="text-center">
-                  <p className="mb-2">
-                    <Link href={data.divider.buttonLink}>
-                      <Button
-                        href={data.divider.buttonLink}
-                        size="large"
-                        color="primary"
-                      >
-                        {data.divider.button}
-                      </Button>
-                    </Link>
-                  </p>
-                  <p className="text-muted text-small">{data.divider.small}</p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </section>
-      )}
-      {data.team && (
-        <section className="py-6">
-          <Container>
-            <Row className="mb-lg-6">
-              <Col md="8">
-                <p className="subtitle text-secondary">Who are we?</p>
-                <h2 className="mb-md-0">Meet our team</h2>
-              </Col>
-              <Col
-                md="4"
-                className="d-md-flex align-items-center justify-content-end"
-              >
-                <Link href={data.team.buttonLink}>
-                  <a className="text-muted text-sm">
-                    {data.team.button}
-                    <i className="fas fa-angle-double-right ml-2" />
-                  </a>
-                </Link>
-              </Col>
-            </Row>
-            <Row>
-              {data.team.members.map((member) => (
-                <Col key={member.title} sm="6" lg="3" className="mb-3 mb-lg-0">
-                  <Card className="border-0 hover-animate bg-transparent">
-                    <Link href={member.link}>
-                      <a className="position-relative">
-                        <img
-                          src={`/content/${member.avatar}`}
-                          alt=""
-                          className="card-img-top team-img"
-                        />
-                        <div className="team-circle bg-secondary-light" />
-                      </a>
-                    </Link>
-                    <CardBody className=" team-body text-center">
-                      <CardTitle tag="h6">{member.title}</CardTitle>
-                      <CardSubtitle
-                        tag="p"
-                        className="text-muted text-xs text-uppercase"
-                      >
-                        {member.type}
-                      </CardSubtitle>
-                    </CardBody>
-                  </Card>
-                </Col>
-              ))}
-            </Row>
-          </Container>
-        </section>
-      )}
-      {data.brands && (
-        <Brands
-          title={data.brands.title}
-          brands={data.brands.brands}
-          greyBackground
         />
       )}
     </React.Fragment>

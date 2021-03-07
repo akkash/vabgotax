@@ -1,116 +1,30 @@
 {
   "hero": "https://omatchar.sirv.com/Images/vabgotax_front.png",
-  "title": "Providing Access to Reliable Professionals",
-  "subTitle": "We help you in process of Starting Up",
+  "title": "Providing Access to Reliable Professional Services",
+  "subTitle": "for every process of your Business.",
 
-  "featured": {
-    "subTitle": "Services We Provide",
-    "title": "Featured Services",
-    "button": "See all services",
-    "buttonLink": "all-services",
-    "swiper": [
-      {
-        "title": "Spacious Warehouse - Chennai",
-        "location": "Chennai",
-        "type": "Warehouse",
-        "link": "/detail-rooms",
-        "img": "img/photo/IMG_20200808_104505.jpg",
-        "meters": "35000",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "price": "15"
-      },
-      {
-        "title": "Spacious Warehouse - Erode",
-        "location": "Erode",
-        "type": "Warehouse",
-        "link": "/detail-rooms-1",
-        "img": "img/photo/IMG_20200808_104826.jpg",
-        "meters": "85000",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "price": "10"
-      },
-      {
-        "title": "Spacious Warehouse - Coimbatore",
-        "location": "Coimbatore",
-        "type": "Warehouse",
-        "link": "/detail-rooms-2",
-        "img": "img/photo/IMG_20200808_104913.jpg",
-        "meters": "35000",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "price": "15"
-      },
-      {
-        "title": "Spacious Warehouse - Chennai",
-        "location": "Chennai",
-        "type": "Warehouse",
-        "link": "/detail-rooms-3",
-        "img": "img/photo/IMG_20200808_104828.jpg",
-        "meters": "85000",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "price": "8"
-      },
-      {
-        "title": "Spacious Warehouse - Madurai",
-        "location": "Madurai",
-        "type": "Warehouse",
-        "link": "/detail-rooms-4",
-        "img": "img/photo/IMG_20200808_104916.jpg",
-        "meters": "35000",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "price": "12"
-      },
-      {
-        "title": "Spacious Warehouse - Trichy",
-        "location": "Trichy",
-        "type": "Warehouse",
-        "link": "/detail-rooms",
-        "img": "img/photo/IMG_20200808_104434.jpg",
-        "meters": "85000",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "price": "5"
-      }
-    ]
-  },
-  "popularCities": {
-    "title": "Locations under our Radar",
-    "subTitle": "Most popular cities"
-  },
   "discover": {
-    "title": "Discover the best Warehouses, Cold Storage around you",
+    "title": "We want business to focus ",
     "subTitle": "Why us?",
     "blocks": [
       {
-        "title": "Find the best warehouse in required area",
-        "content": "Reduce your time spent hunting for the warehouse and cold storage which fullfills your requirements by ging through the listed spaces details",
-        "icon": "#destination-map-1",
+        "title": "On Time Delivery",
+        "content": "We understand all the services we provide are priority ONE. We make sure We deliver it.",
+        "icon": "#pay-1",
         "color": "primary"
       },
       {
-        "title": "Purchase a property",
-        "content": "The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit",
-        "icon": "#real-estate-1",
+        "title": "Transparent Pricing",
+        "content": "We believe Transparent prices help to gain Customers belief. ",
+        "icon": "#pay-1",
         "color": "secondary"
       },
       {
-        "title": "Profit",
-        "content": "His room, a proper human room although a little too small, lay peacefully between its four familiar ",
+        "title": "Expert CA/CS Assistance",
+        "content": "Inhouse expert Professionals to guide you through your business compliances.",
         "icon": "#pay-1",
         "color": "primary"
       }
     ]
-  },
-  "divider": {
-    "title": "Vabgo is the best way to find & discover Warehouse, Commercial Space, Used Machinery",
-    "subTitle": "Start using Vabgo today",
-    "content": "Browse through our listings and make your search easier.",
-    "button": "Create Your Account",
-    "buttonLink": "#",
-    "small": "Cheaper than a Month YOUR Net Pack"
   }
 }
