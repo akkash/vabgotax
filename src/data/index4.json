@@ -26,5 +26,35 @@
         "color": "primary"
       }
     ]
+  },
+  "featured": {
+    "subTitle": "Find your home today",
+    "title": "Featured listings around you",
+    "button": "See all featured listings",
+    "buttonLink": "category-rooms",
+    "swiper": [
+      {
+        "title": "Modern, Well-Appointed Room",
+        "location": "San Francisco",
+        "type": "House",
+        "link": "/detail-rooms",
+        "img": "img/photo/photo-1484154218962-a197022b5858.jpg",
+        "meters": "350",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "price": "$150k"
+      },
+      {
+        "title": "Cute Quirky Garden apt, NYC adjacent",
+        "location": "San Francisco",
+        "type": "Apartment",
+        "link": "/detail-rooms",
+        "img": "img/photo/photo-1426122402199-be02db90eb90.jpg",
+        "meters": "85",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "price": "$65k"
+      }
+    ]
   }
 }
