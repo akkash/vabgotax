@@ -31,19 +31,11 @@ export default (props) => {
               <a className="text-decoration-none text-dark">{data.title}</a>
             </Link>
           </CardTitle>
-          <CardSubtitle className="text-sm text-secondary mb-2" tag="p">
-            <i className="fa fa-map-marker text-secondary opacity-4 mr-1" />
-            {data.location}
-          </CardSubtitle>
           <p className="text-sm text-muted text-uppercase">{data.type}</p>
           <p className="card-text d-flex justify-content-between text-gray-800 text-sm">
-            <span className="mr-1">
-              <i className="fa fa-ruler-combined text-primary opacity-4 text-xs mr-1" />
-              {data.meters} Sq Ft
-            </span>
             <span>
               <i className="fa fa-rupee-sign text-primary opacity-4 text-xs mr-1" />
-              {data.price} Sq Ft
+              {data.price} + Govt Fees.
             </span>
           </p>
         </div>

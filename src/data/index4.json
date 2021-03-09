@@ -2,7 +2,6 @@
   "hero": "https://omatchar.sirv.com/Images/vabgotax_front.png",
   "title": "Providing Access to Reliable Professional Services",
   "subTitle": "for every process of your Business.",
-
   "discover": {
     "title": "We want business to focus ",
     "subTitle": "Why us?",
@@ -28,32 +27,70 @@
     ]
   },
   "featured": {
-    "subTitle": "Find your home today",
-    "title": "Featured listings around you",
-    "button": "See all featured listings",
-    "buttonLink": "category-rooms",
+    "subTitle": "Featured ",
+    "title": "Services We Provide",
+    "button": "See all services",
+    "buttonLink": "all-services",
     "swiper": [
       {
-        "title": "Modern, Well-Appointed Room",
-        "location": "San Francisco",
-        "type": "House",
+        "title": "Register Private Limited Company",
         "link": "/detail-rooms",
-        "img": "img/photo/photo-1484154218962-a197022b5858.jpg",
-        "meters": "350",
-        "bedrooms": "3",
-        "bathrooms": "2",
-        "price": "$150k"
+        "img": "img/photo/register_private_limited_company.jpg",
+        "price": "999"
       },
       {
-        "title": "Cute Quirky Garden apt, NYC adjacent",
-        "location": "San Francisco",
-        "type": "Apartment",
+        "title": "Register Public Limited Company",
         "link": "/detail-rooms",
-        "img": "img/photo/photo-1426122402199-be02db90eb90.jpg",
-        "meters": "85",
-        "bedrooms": "2",
-        "bathrooms": "1",
-        "price": "$65k"
+        "img": "img/photo/register_public_limited_company.jpg",
+        "price": "999"
+      },
+      {
+        "title": "Register Limited Liability Company",
+        "link": "/detail-rooms",
+        "img": "img/photo/register_limited_liability_company.jpg",
+        "price": "999"
+      },
+      {
+        "title": "Register One Person Company",
+        "link": "/detail-rooms",
+        "img": "img/photo/register_one_person_company.jpg",
+        "price": "999"
+      },
+      {
+        "title": "Register Limited Liability Company",
+        "link": "/detail-rooms",
+        "img": "img/photo/register_limited_liability_company.jpg",
+        "price": "999"
+      },
+      {
+        "title": "Change Company Name",
+        "link": "/detail-rooms",
+        "img": "img/photo/change_company_name.jpg",
+        "price": "999"
+      },
+      {
+        "title": "Check Company Name Availability",
+        "link": "/detail-rooms",
+        "img": "img/photo/check_company_name_availability.jpg",
+        "price": "999"
+      },
+      {
+        "title": "Annual Compliance's of Private Limited Company",
+        "link": "/detail-rooms",
+        "img": "img/photo/annual_compliance_of_pvt.jpg",
+        "price": "12,799"
+      },
+      {
+        "title": "Close Private Limited Company",
+        "link": "/detail-rooms",
+        "img": "img/photo/close_private_limited_company.jpg",
+        "price": "999"
+      },
+      {
+        "title": "Covert Sole Proprietorship to Private Limited Company",
+        "link": "/detail-rooms",
+        "img": "img/photo/convert_sole_proprietor_to_pvt.jpg",
+        "price": "999"
       }
     ]
   }
