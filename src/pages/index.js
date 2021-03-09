@@ -208,8 +208,6 @@ export default () => {
           </Container>
         </section>
       )}
-
-      <Instagram />
     </React.Fragment>
   );
 };
