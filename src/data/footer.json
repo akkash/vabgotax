@@ -1,7 +1,7 @@
 [
   {
-    "title": "Vabgo",
-    "content": "One Point Solution",
+    "title": "VabgoTax",
+    "content": "One Point Solution for Business Registration, Compliances, Trademark",
     "social": [
       {
         "title": "twitter",
@@ -19,26 +19,26 @@
     "lg": "4"
   },
   {
-    "title": "Rentals",
+    "title": "Registration",
     "links": [
       {
-        "title": "Warehouse",
+        "title": "Register Private Limited Company",
         "link": "/"
       },
       {
-        "title": "Cold Storage",
+        "title": "Register Limited Liability Company",
         "link": "/category-rooms"
       },
       {
-        "title": "Business For Sale",
+        "title": "Register Public Limited Company",
         "link": "/category-2-rooms"
       },
       {
-        "title": "Commercial Space",
+        "title": "Convert Partnership Firm to Limited Liability Company",
         "link": "/category-3-rooms"
       },
       {
-        "title": "Used Machinery",
+        "title": "Change Company Name",
         "link": "/detail-rooms"
       }
     ],
